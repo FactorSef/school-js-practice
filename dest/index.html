@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <div class="game">
+        <table id="game-pane" class="game-table">
+            <tr class="row">
+                <td class="cell" data-row="0" data-cell="0"></td>
+                <td class="cell" data-row="0" data-cell="1"></td>
+                <td class="cell" data-row="0" data-cell="2"></td>
+            </tr>
+            <tr class="row">
+                <td class="cell" data-row="1" data-cell="0"></td>
+                <td class="cell" data-row="1" data-cell="1"></td>
+                <td class="cell" data-row="1" data-cell="2"></td>
+            </tr>
+            <tr class="row">
+                <td class="cell" data-row="2" data-cell="0"></td>
+                <td class="cell" data-row="2" data-cell="1"></td>
+                <td class="cell" data-row="2" data-cell="2"></td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-wrapper">
+            <div id="modal-message" class="modal-body">сообщение</div>
+            <button id="modal-close">restart</button>
+        </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
